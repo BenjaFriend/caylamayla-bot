@@ -1,0 +1,23 @@
+{
+  "name": "caylamayla-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaFriend/caylamayla-bot.git"
+  },
+  "author": "Ben Hoffman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenjaFriend/caylamayla-bot/issues"
+  },
+  "homepage": "https://github.com/BenjaFriend/caylamayla-bot",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}

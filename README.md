@@ -18,3 +18,16 @@ An example json file looks like this:
 }
 
 ```
+
+You could add to this if you had other things like API keys or
+something of the like. In the future I aim to change this to 
+Docker Secrets once I get the bot up and running.
+
+# Config File
+There is a base `config.json` that is used to determine command prefixes and
+some other common bot settings. This is a good place to put bot-specific
+options or other stuff that should be easily changeable in the future. 
+
+## Thanks Sam!
+
+Shout out to [theheckle](https://github.com/theheckle/tanatimer) for providing a good starting point for this!

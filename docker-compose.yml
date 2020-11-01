@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  discgram:
+    container_name: caylamayla-bot
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
